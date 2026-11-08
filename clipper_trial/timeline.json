@@ -1,0 +1,123 @@
+{
+  "title": "PRABOWO MODE SPONTAN — 60 DETIK",
+  "language": "id-ID",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "aspect": "9:16",
+    "fps": 30,
+    "duration_seconds": 60
+  },
+  "style": {
+    "base": "fast-paced editorial montage",
+    "inserts": "3D caricature reaction cutaways only; label every generated insert PARODI / ILUSTRASI",
+    "audio": "use original sync audio where available; original background music and SFX; no synthetic voice impersonation",
+    "subtitles": "bold Indonesian captions, 2 lines maximum, safe margins"
+  },
+  "timeline": [
+    {
+      "start": 0,
+      "end": 3,
+      "kind": "title_hook",
+      "visual": "Quick punch-in from the FIFA ASEAN Cup celebration clip; title card.",
+      "text": "PRABOWO MODE SPONTAN",
+      "source_id": "S1",
+      "source_in": "TO_CONFIRM"
+    },
+    {
+      "start": 3,
+      "end": 10,
+      "kind": "original_clip",
+      "visual": "Prabowo's spontaneous celebration after Indonesia's win; cut on the reaction and fist pump.",
+      "source_id": "S1",
+      "source_in": "TO_CONFIRM",
+      "source_out": "TO_CONFIRM",
+      "overlay": "5 OKT 2026 • FINAL FIFA ASEAN CUP"
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "kind": "original_clip",
+      "visual": "HUT PAN exchange about speaking casually; keep setup and response together.",
+      "source_id": "S2",
+      "source_in": "00:09",
+      "source_out": "00:27",
+      "overlay": "HUT PAN • 18 SEP 2026"
+    },
+    {
+      "start": 18,
+      "end": 24,
+      "kind": "original_clip",
+      "visual": "Line about being told not to dance; preserve the complete statement.",
+      "source_id": "S2",
+      "source_in": "00:33",
+      "source_out": "00:39",
+      "overlay": "HUT PAN • 18 SEP 2026"
+    },
+    {
+      "start": 24,
+      "end": 30,
+      "kind": "original_clip",
+      "visual": "May Day 'joget gemoy' visual callback; brief freeze-frame then 3D caricature dance reaction labelled PARODI.",
+      "source_id": "S10",
+      "source_in": "TO_CONFIRM",
+      "source_out": "TO_CONFIRM",
+      "overlay": "MAY DAY • 1 MEI 2026"
+    },
+    {
+      "start": 30,
+      "end": 36,
+      "kind": "original_clip",
+      "visual": "Teddy welcomed by the crowd; retain Prabowo's line and show the crowd response.",
+      "source_id": "S9",
+      "source_in": "TO_CONFIRM",
+      "source_out": "TO_CONFIRM",
+      "overlay": "GORONTALO • 24 JUN 2026"
+    },
+    {
+      "start": 36,
+      "end": 43,
+      "kind": "original_clip",
+      "visual": "HUT PAN 'turun sebelum diusir' joke. Include the lead-in/context; do not cut to or point at another politician.",
+      "source_id": "S3",
+      "source_in": "TO_CONFIRM",
+      "source_out": "TO_CONFIRM",
+      "overlay": "KELAKAR DI HUT PAN • 18 SEP 2026"
+    },
+    {
+      "start": 43,
+      "end": 49,
+      "kind": "optional_original_clip",
+      "visual": "Ndasmu quip, use a short beep over the profanity if needed; retain the immediately following request/joke about the recording.",
+      "source_id": "S8",
+      "source_in": "TO_CONFIRM",
+      "source_out": "TO_CONFIRM",
+      "overlay": "PENAS XVII • GORONTALO • 24 JUN 2026"
+    },
+    {
+      "start": 49,
+      "end": 55,
+      "kind": "optional_original_clip",
+      "visual": "Microphone is moved during the briefing. No voiceover speculation; label event/date and show the sequence as-is.",
+      "source_id": "S4",
+      "source_in": "TO_CONFIRM",
+      "source_out": "TO_CONFIRM",
+      "overlay": "RAPAT KARHUTLA • 7 SEP 2026"
+    },
+    {
+      "start": 55,
+      "end": 60,
+      "kind": "closing",
+      "visual": "Short freeze-frame montage, then context slate.",
+      "text": "POTONGAN DARI ACARA BERBEDA. CEK SUMBER ASLINYA.",
+      "overlay": "KOMPILASI • BUKAN SATU KEJADIAN"
+    }
+  ],
+  "notes": [
+    "Source in/out values marked TO_CONFIRM must be set after the actual source file is provided. Do not invent timecodes.",
+    "S2 timecodes are transcribed source positions from the Suara.com Dailymotion video.",
+    "The S3 line must not be represented as a message to Gibran or another named individual.",
+    "The S4 microphone moment is not evidence of motive or relationship; do not add commentary about why it happened.",
+    "Use original audio only. No cloned or synthetic Prabowo voice."
+  ]
+}
