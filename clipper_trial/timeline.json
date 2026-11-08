@@ -6,118 +6,130 @@
     "height": 1920,
     "aspect": "9:16",
     "fps": 30,
-    "duration_seconds": 60
+    "duration_seconds": 60,
+    "container": "mp4",
+    "video": "h264",
+    "audio": "aac"
   },
-  "style": {
-    "base": "fast-paced editorial montage",
-    "inserts": "3D caricature reaction cutaways only; label every generated insert PARODI / ILUSTRASI",
-    "audio": "use original sync audio where available; original background music and SFX; no synthetic voice impersonation",
-    "subtitles": "bold Indonesian captions, 2 lines maximum, safe margins"
-  },
-  "timeline": [
+  "status": "edit_blueprint_waiting_for_source_files",
+  "approach": "Fast-paced highlight compilation. Keep event/date labels. Use short context-preserving excerpts. Original audio from source videos; original SFX/music only.",
+  "sequence": [
     {
       "start": 0,
       "end": 3,
-      "kind": "title_hook",
-      "visual": "Quick punch-in from the FIFA ASEAN Cup celebration clip; title card.",
-      "text": "PRABOWO MODE SPONTAN",
-      "source_id": "S1",
-      "source_in": "TO_CONFIRM"
+      "kind": "hook",
+      "visual": "Rapid 3-shot flash: cheering stadium, May Day stage, PAN crowd. Title overlay.",
+      "text": "MOMEN PRABOWO YANG RAMAI DIBICARAKAN",
+      "source_refs": [
+        "S1",
+        "S4",
+        "S2"
+      ]
     },
     {
       "start": 3,
       "end": 10,
-      "kind": "original_clip",
-      "visual": "Prabowo's spontaneous celebration after Indonesia's win; cut on the reaction and fist pump.",
+      "kind": "original_footage",
+      "event": "FIFA ASEAN Cup celebration at SUGBK — 5 Oct 2026",
+      "visual": "Prabowo is told Indonesia won; reaction, fist pump and dance. Preserve the sequence from the information being delivered through the reaction.",
       "source_id": "S1",
       "source_in": "TO_CONFIRM",
       "source_out": "TO_CONFIRM",
-      "overlay": "5 OKT 2026 • FINAL FIFA ASEAN CUP"
+      "caption": "INDONESIA JUARA • 5 OKT 2026"
     },
     {
       "start": 10,
-      "end": 18,
-      "kind": "original_clip",
-      "visual": "HUT PAN exchange about speaking casually; keep setup and response together.",
-      "source_id": "S2",
-      "source_in": "00:09",
-      "source_out": "00:27",
-      "overlay": "HUT PAN • 18 SEP 2026"
-    },
-    {
-      "start": 18,
-      "end": 24,
-      "kind": "original_clip",
-      "visual": "Line about being told not to dance; preserve the complete statement.",
-      "source_id": "S2",
-      "source_in": "00:33",
-      "source_out": "00:39",
-      "overlay": "HUT PAN • 18 SEP 2026"
-    },
-    {
-      "start": 24,
-      "end": 30,
-      "kind": "original_clip",
-      "visual": "May Day 'joget gemoy' visual callback; brief freeze-frame then 3D caricature dance reaction labelled PARODI.",
-      "source_id": "S10",
-      "source_in": "TO_CONFIRM",
-      "source_out": "TO_CONFIRM",
-      "overlay": "MAY DAY • 1 MEI 2026"
-    },
-    {
-      "start": 30,
-      "end": 36,
-      "kind": "original_clip",
-      "visual": "Teddy welcomed by the crowd; retain Prabowo's line and show the crowd response.",
-      "source_id": "S9",
-      "source_in": "TO_CONFIRM",
-      "source_out": "TO_CONFIRM",
-      "overlay": "GORONTALO • 24 JUN 2026"
-    },
-    {
-      "start": 36,
-      "end": 43,
-      "kind": "original_clip",
-      "visual": "HUT PAN 'turun sebelum diusir' joke. Include the lead-in/context; do not cut to or point at another politician.",
-      "source_id": "S3",
-      "source_in": "TO_CONFIRM",
-      "source_out": "TO_CONFIRM",
-      "overlay": "KELAKAR DI HUT PAN • 18 SEP 2026"
-    },
-    {
-      "start": 43,
-      "end": 49,
-      "kind": "optional_original_clip",
-      "visual": "Ndasmu quip, use a short beep over the profanity if needed; retain the immediately following request/joke about the recording.",
-      "source_id": "S8",
-      "source_in": "TO_CONFIRM",
-      "source_out": "TO_CONFIRM",
-      "overlay": "PENAS XVII • GORONTALO • 24 JUN 2026"
-    },
-    {
-      "start": 49,
-      "end": 55,
-      "kind": "optional_original_clip",
-      "visual": "Microphone is moved during the briefing. No voiceover speculation; label event/date and show the sequence as-is.",
+      "end": 17,
+      "kind": "original_footage",
+      "event": "May Day at Monas — 1 May 2026",
+      "visual": "Crowd cheers Teddy; Prabowo jokes 'Gue presidennya, bukan dia'. Keep crowd cheer and sentence in same clip.",
       "source_id": "S4",
       "source_in": "TO_CONFIRM",
       "source_out": "TO_CONFIRM",
-      "overlay": "RAPAT KARHUTLA • 7 SEP 2026"
+      "caption": "MAY DAY • 1 MEI 2026"
+    },
+    {
+      "start": 17,
+      "end": 22,
+      "kind": "original_footage",
+      "event": "May Day at Monas — 1 May 2026",
+      "visual": "Joget gemoy arrival shot. Match cut from previous May Day clip; label same date/event.",
+      "source_id": "S5",
+      "source_in": "TO_CONFIRM",
+      "source_out": "TO_CONFIRM",
+      "caption": "MAY DAY • 1 MEI 2026"
+    },
+    {
+      "start": 22,
+      "end": 31,
+      "kind": "original_footage",
+      "event": "HUT PAN — 18 Sep 2026",
+      "visual": "Keep the 'lu-gue' interaction and his remark about being told not to dance. Use source transcript timecodes 00:09-00:27 and 00:33-00:39 as candidate in-points; trim after source-file review.",
+      "source_id": "S2",
+      "source_in": "00:09",
+      "source_out": "00:39",
+      "caption": "HUT PAN • 18 SEP 2026"
+    },
+    {
+      "start": 31,
+      "end": 38,
+      "kind": "original_footage",
+      "event": "PENAS Petani Nelayan XVII, Gorontalo — 24 Jun 2026",
+      "visual": "Teddy receives cheers; keep the crowd reaction and Prabowo's 'Yang presiden aku' line together.",
+      "source_id": "S7",
+      "source_in": "TO_CONFIRM",
+      "source_out": "TO_CONFIRM",
+      "caption": "GORONTALO • 24 JUN 2026"
+    },
+    {
+      "start": 38,
+      "end": 44,
+      "kind": "original_footage",
+      "event": "PENAS Petani Nelayan XVII, Gorontalo — 24 Jun 2026",
+      "visual": "Short wordplay 'Ada Prabowo, ada Subiyanto, susah diganti'. Keep the preceding greeting/name context.",
+      "source_id": "S6",
+      "source_in": "TO_CONFIRM",
+      "source_out": "TO_CONFIRM",
+      "caption": "GORONTALO • 24 JUN 2026"
+    },
+    {
+      "start": 44,
+      "end": 50,
+      "kind": "original_footage",
+      "event": "PENAS Petani Nelayan XVII, Gorontalo — 24 Jun 2026",
+      "visual": "'Ndasmu' moment with the sentence lead-in and immediate follow-up asking for the recording to be removed. Optional beep only if publisher/platform standards require it.",
+      "source_id": "S8",
+      "source_in": "TO_CONFIRM",
+      "source_out": "TO_CONFIRM",
+      "caption": "GORONTALO • 24 JUN 2026"
+    },
+    {
+      "start": 50,
+      "end": 55,
+      "kind": "parody_insert",
+      "visual": "Original 3D caricature reaction insert: stage lights, dancing silhouette and exaggerated crowd-reaction symbols. Label continuously 'PARODI / ILUSTRASI'; do not portray it as real footage.",
+      "caption": "PARODI / ILUSTRASI"
     },
     {
       "start": 55,
       "end": 60,
-      "kind": "closing",
-      "visual": "Short freeze-frame montage, then context slate.",
-      "text": "POTONGAN DARI ACARA BERBEDA. CEK SUMBER ASLINYA.",
-      "overlay": "KOMPILASI • BUKAN SATU KEJADIAN"
+      "kind": "closing_card",
+      "visual": "Fast recap with event/date stamps, then end card.",
+      "text": "POTONGAN DARI ACARA BERBEDA • CEK KONTEKS ASLI"
     }
   ],
-  "notes": [
-    "Source in/out values marked TO_CONFIRM must be set after the actual source file is provided. Do not invent timecodes.",
-    "S2 timecodes are transcribed source positions from the Suara.com Dailymotion video.",
-    "The S3 line must not be represented as a message to Gibran or another named individual.",
-    "The S4 microphone moment is not evidence of motive or relationship; do not add commentary about why it happened.",
-    "Use original audio only. No cloned or synthetic Prabowo voice."
-  ]
+  "audio": {
+    "source_audio": "Keep source speech authentic; no AI voice cloning or synthetic recreation of Prabowo's voice.",
+    "music": "Original or properly licensed instrumental bed only; duck under dialogue.",
+    "sfx": "Short whooshes and record-stop accents; do not mask speech or alter the tone of a statement."
+  },
+  "guardrails": [
+    "The HUT PAN 'turun sebelum diusir' quote is not used in this humorous edit because it has been falsely framed as a message to Gibran; Jalahoaks debunked that context on 5 Nov 2026.",
+    "Do not use the 'siapa yang bayar demo' segment as proof that a particular person or group paid demonstrators.",
+    "Do not infer motive from the microphone movement in the 7 Sep 2026 meeting.",
+    "No fake Prabowo dialogue, voice cloning, or synthetic lip sync.",
+    "All clips must retain event and date lower-thirds and must not be cut to reverse their meaning.",
+    "Any generated 3D caricature/reaction visual must carry a visible PARODI / ILUSTRASI label."
+  ],
+  "source_timecodes": "TO_CONFIRM except HUT PAN candidate positions; do not invent exact cuts before files are supplied."
 }
