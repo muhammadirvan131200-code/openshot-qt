@@ -1,0 +1,76 @@
+{
+  "project_title": "Jangan Cuma Nonton. Upgrade Diri Lu.",
+  "niche": [
+    "education",
+    "self-development",
+    "AI skills",
+    "learning"
+  ],
+  "status": "proof_of_concept",
+  "media_disclosure": "This prototype uses original illustrative graphics, original Indonesian voiceover and synthesized original music. It does not contain real downloaded creator footage.",
+  "export": {
+    "container": "mp4",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 720,
+    "height": 1280,
+    "aspect_ratio": "9:16",
+    "fps": 24,
+    "duration_seconds": 60
+  },
+  "editorial_thesis": "Watching successful people is not the same as making progress; choose one skill, practice, build one thing, revise, repeat.",
+  "sequence": [
+    {
+      "in": 0,
+      "out": 5,
+      "beat": "Hook",
+      "visual": "Person scrolling; challenge passive consumption."
+    },
+    {
+      "in": 5,
+      "out": 13,
+      "beat": "Creator context",
+      "visual": "Illustrative study/notes cutaway; reference themes from self-development."
+    },
+    {
+      "in": 13,
+      "out": 21,
+      "beat": "AI learning",
+      "visual": "Learner using laptop and AI interface; label illustrative visuals."
+    },
+    {
+      "in": 21,
+      "out": 30,
+      "beat": "Choose a skill",
+      "visual": "Coding, design and editing practice."
+    },
+    {
+      "in": 30,
+      "out": 39,
+      "beat": "Build",
+      "visual": "Turn a tutorial into a small real project."
+    },
+    {
+      "in": 39,
+      "out": 48,
+      "beat": "Iteration",
+      "visual": "Test, fail, revise and request feedback."
+    },
+    {
+      "in": 48,
+      "out": 56,
+      "beat": "Consistency",
+      "visual": "Repeated focused practice; avoid miracle-result claims."
+    },
+    {
+      "in": 56,
+      "out": 60,
+      "beat": "CTA",
+      "visual": "One hour, one skill, one finished work."
+    }
+  ],
+  "voiceover_file": "voiceover_script.txt",
+  "subtitle_file": "captions_id.srt",
+  "source_list_file": "sources.md",
+  "usage_note": "Replace illustrative scenes with approved/licensed source footage only after exact source timecodes and usage rights have been verified."
+}
