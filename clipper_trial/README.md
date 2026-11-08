@@ -1,39 +1,31 @@
 # Prabowo Viral Moments — 60s clipper trial
 
-## Editorial format
-- Working title: **PRABOWO MODE SPONTAN — 60 DETIK**
+## Edit concept
+- Title: **MOMEN PRABOWO YANG RAMAI DIBICARAKAN**
 - Platform: TikTok / YouTube Shorts
-- Frame: 9:16 vertical
-- Target length: 60 seconds
-- Tone: fast-paced editorial montage with clearly labelled parody/reaction inserts
-- Source footage: real, dated clips from separate public events; preserve original speech context
-- Avoid synthetic voice impersonation and do not alter real quotes.
+- Format: 9:16 vertical, 1080x1920, 30 fps, 60 seconds
+- Tone: fast editorial montage; authentic event audio; optional clearly labeled 3D parody reaction insert.
+- This branch contains the research, source references, clip plan and edit notes. It does not contain downloaded third-party video or a finished MP4.
 
-## Important status
-This is an **edit blueprint / source pack**, not a rendered MP4. Source video files are not included. The timeline is ready for media conform once the user supplies footage they are authorized to use. We have not downloaded or republished third-party publisher videos.
+## Selected story spine
+A short sequence of documented, separate public moments: FIFA ASEAN Cup celebration (5 Oct 2026), May Day banter and joget (1 May 2026), HUT PAN banter (18 Sep 2026), and spontaneous Gorontalo remarks (24 Jun 2026). Every section must retain its event/date label.
 
-## Core edit structure
-1. Start with Prabowo's reaction during Indonesia's FIFA ASEAN Cup 2026 celebration.
-2. Cut to the HUT PAN 2026 speech: the casual "lu-gue" exchange and the statement that he had been told not to dance. Known transcript source ranges are listed in `timeline.json`.
-3. Use the May Day 2026 "joget gemoy" clip as a visual callback.
-4. Cut to the Gorontalo "yang presiden aku" quip after the crowd cheered Seskab Teddy.
-5. Add the HUT PAN "pemimpin harus turun sebelum diusir" joke with the event/date tag kept visible; do not imply it was directed at any particular person.
-6. Optional short bleeped "ndasmu" moment, preserving the immediate context that he joked about the recording.
-7. Optional neutral shot of the microphone being moved during a Karhutla/IKN briefing; do not assert why it happened or infer a private relationship.
-8. Close with a clear slate: "Cuplikan berasal dari acara berbeda. Cek konteks dan sumber lengkap."
+## Current limitation
+I have verified source pages and prepared a detailed edit blueprint, but the original video files are not attached to this repository or the chat. Without the source files, exact in/out points cannot be checked and a real-footage montage cannot be rendered honestly. Some pages contain embedded players; a webpage link is not the same as an editable local media file.
 
-## Editorial guardrails
-- No fake/AI-generated Prabowo dialogue.
-- Do not present different events as a single continuous event.
-- Do not cut a statement to reverse its meaning.
-- Do not imply that the HUT PAN "turun sebelum diusir" joke was about a named politician; fact-checkers have debunked viral posts claiming it targeted Gibran.
-- Do not frame the Teddy microphone moment as proof of control, conflict, or motive; just describe what is visible.
-- A synthetic caricature/reaction insert must carry a visible **PARODI / ILUSTRASI** label.
-- Obtain permission or ensure a valid legal basis for any third-party footage/music before publishing. YouTube's terms restrict downloading or modifying content except where authorized, permitted by law, or with prior permission.
+## How to finish the render
+1. Import original video files that the user is authorized to reuse.
+2. Confirm exact source in/out timecodes against each local file; entries marked TO_CONFIRM must not be guessed.
+3. Place each excerpt on the main track in the order in `timeline.json`.
+4. Add event/date lower-thirds; keep separate events visibly distinct.
+5. Use only original or licensed background music and effects.
+6. Add the clearly labeled 3D caricature insert on the parody track, not as purported event footage.
+7. Check context before/after every quote, captions, voice clarity, safe margins and export settings.
+8. Export MP4 H.264/AAC, 1080x1920, 30 fps, 60 seconds.
 
-## Files
-- `sources.md`: ten candidate source videos/articles and verification notes.
-- `timeline.json`: 60-second beat sheet and source references.
-- `voiceover_script.txt`: neutral original narration.
-- `captions_id.srt`: working Indonesian subtitles (timecodes are timeline-relative).
-- `clip_notes.md`: source/timecode checklist and production notes.
+## Research outputs
+- `sources.md`: ten source candidates and notes about factual/context risks.
+- `timeline.json`: 60-second sequence.
+- `captions_id.srt`: working subtitle slate.
+- `voiceover_script.txt`: short neutral bridge narration.
+- `clip_notes.md`: source conform and rights checklist.
